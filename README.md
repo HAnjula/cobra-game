@@ -23,19 +23,20 @@ Requirements
 
   
  For GCC (Linux/macOS):
-		gcc snake.c -o snake
+		gcc cobra.c -o cobra
 
  
 For Visual Studio (Windows):
-			cl snake.c
+			cl cobra.c
 	 
 <li>After compiling successfully, run the executable:</li>
-		For Linux/macOS:
-		./snake
+<ul>
+<li>For Linux/macOS:</li>
+./cobra
 	
-For Windows:
-    snake.exe
-
+<li>For Windows:</li>
+cobra.exe
+</ul>
   </ol>  
 		
   <h3>How to Play</h3>
@@ -49,7 +50,6 @@ For Windows:
 <li>'q' to quit the game</li>
 </ul>
 The objective is to eat the food ('@') to grow longer and increase your score.
-
 The game ends if the snake collides with the walls or its own body.
 
 <h4>Game Controls</h4>
@@ -60,7 +60,3 @@ Press 'q' to quit the game at any time.
 
 Try to eat as much food as possible to increase your score.
 Be careful not to run into the walls or the snake's body, as this will end the game.
-License
-This Snake game is licensed under the MIT License.
-
-Please make sure to replace "your-username" and "your-repo" with your actual GitHub username and repository name in the clone URL. Also, adjust the compilation commands if necessary, based on the compiler you are using.
